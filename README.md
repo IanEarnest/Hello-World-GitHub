@@ -1,4 +1,4 @@
 Hello-World
 ===========
 
-Simple hello world example.
+C# hello world example.
