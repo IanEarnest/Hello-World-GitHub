@@ -1,4 +1,4 @@
-Hello-World
+Hello-World project
 ===========
 
 This is a C# "Hello World" example created in Unity using MonoDevelop.
