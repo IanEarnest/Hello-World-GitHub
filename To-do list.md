@@ -1,11 +1,16 @@
 To-do list
 ==========
 
-- Print on screen "Hello World"
-- Publish exe
-+ More "Hello World" examples
+&#x2611; Print on screen "Hello World"
+
+&#x2611; Publish exe
+
+&#9744; More "Hello World" examples
+
 
 
 Map
-- = added
-+ = to add
+
+&#x2611; = finished
+
+&#9744; = in progress
