@@ -1,4 +1,4 @@
 Hello-World
 ===========
 
-C# hello world example.
+C# hello world example in Unity.
