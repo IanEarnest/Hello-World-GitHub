@@ -1,34 +1,34 @@
 # =============== #
 # Unity generated #
 # =============== #
-Hello World Unity/Temp/
-Hello World Unity/Library/
+Temp/
+Library/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
-Hello World Unity/ExportedObj/
-Hello World Unity/obj/
-Hello World Unity/*.svd
-Hello World Unity/*.userprefs
-Hello World Unity/*.csproj
-Hello World Unity/*.pidb
-Hello World Unity/*.suo
-Hello World Unity/*.sln
-Hello World Unity/*.user
-Hello World Unity/*.unityproj
-Hello World Unity/*.booproj
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
 
 # ============ #
 # OS generated #
 # ============ #
-Hello World Unity/.DS_Store
-Hello World Unity/.DS_Store?
-Hello World Unity/._*
-Hello World Unity/.Spotlight-V100
-Hello World Unity/.Trashes
-Hello World Unity/ehthumbs.db
-Hello World Unity/Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 
 
