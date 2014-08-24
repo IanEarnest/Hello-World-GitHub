@@ -1,6 +1,15 @@
-Hello-World project
+Hello-World-GitHub project
 ===========
+BEING CHANGED
 
+This Hello World project is setup to show multiple examples of Hello World in programming, using GitHub and languages:
+C#
+Unity
+C++
+Java
+Eclipse
+HTML5
+===========
 This is a C# "Hello World" example created in Unity using MonoDevelop.
 
 Main code located: /Hello World Unity/Assets/HelloWorldScript.cs
