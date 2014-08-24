@@ -1,0 +1,6 @@
+F:\Projects\GitHub\Hello-World-GitHub\Hello World C-sharp\Hello World C-sharp\bin\Debug\Hello World C-sharp.exe.config
+F:\Projects\GitHub\Hello-World-GitHub\Hello World C-sharp\Hello World C-sharp\bin\Debug\Hello World C-sharp.exe
+F:\Projects\GitHub\Hello-World-GitHub\Hello World C-sharp\Hello World C-sharp\bin\Debug\Hello World C-sharp.pdb
+F:\Projects\GitHub\Hello-World-GitHub\Hello World C-sharp\Hello World C-sharp\obj\Debug\Hello World C-sharp.csprojResolveAssemblyReference.cache
+F:\Projects\GitHub\Hello-World-GitHub\Hello World C-sharp\Hello World C-sharp\obj\Debug\Hello World C-sharp.exe
+F:\Projects\GitHub\Hello-World-GitHub\Hello World C-sharp\Hello World C-sharp\obj\Debug\Hello World C-sharp.pdb
