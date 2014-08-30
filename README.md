@@ -3,8 +3,8 @@ Hello-World-GitHub project
 
 
 
-Intro
--------
+Introduction
+------------
 This Hello World project is setup to show multiple examples of Hello World in programming.
 
 Hello World Unity - 
