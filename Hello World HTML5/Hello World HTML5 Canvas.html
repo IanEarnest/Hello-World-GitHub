@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello World HTML5 Canvas</title>
+		<script> 
+			function html5Canvas() {
+				var canvas = document.getElementById("helloCanvas");
+				var context = canvas.getContext("2d");
+			 
+				var x = 10;
+				var y = 35;
+				
+				context.strokeRect(0,0,175,50);
+				context.font="30px Times New Roman";
+				context.fillText("Hello World!", x, y);
+			} 
+		</script>
+	</head>
+	<body onload="html5Canvas()">
+		<canvas id="helloCanvas" width="175" height="50"></canvas>
+	</body>
+</html>

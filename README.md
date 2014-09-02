@@ -34,7 +34,7 @@ To-do list
 - &#x2611; Unity
 - &#9744; Java
 - &#9744; Eclipse
-- &#9744; HTML5
+- &#x2611; HTML5
 
 
 Map
