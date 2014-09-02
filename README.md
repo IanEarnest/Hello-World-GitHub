@@ -12,8 +12,16 @@ Created in Unity using MonoDevelop and C#, hello world is displayed in the on sc
 Main code located "Hello-World-GitHub/Hello World Unity/Assets/HelloWorldScript.cs"
 
 Hello World C-sharp - 
-Created in Visual Studio Express 2013 for Windows Desktop using C#, hello world is displayed in a command prompt.
+Created in Visual Studio Express 2013 for Windows Desktop, hello world is displayed in a command prompt.
 Main code located "Hello-World-GitHub/Hello World C-sharp/Program.cs"
+
+Hello World Java - 
+Created in ..., hello world is displayed in ...
+Main code located "Hello-World-GitHub/Hello World Java ...
+
+Hello World Eclipse - 
+Created in Eclipse, hello world is displayed in ...
+Main code located "Hello-World-GitHub/Hello World Eclipse ...
 
 Hello World HTML5 - 
 Created in Notepad++, hello world is displayed in the top left of the browser for both the HTML5 and HTML5 Canvas examples.
@@ -57,6 +65,12 @@ Navigate to "Hello-World-GitHub\Hello World C-sharp\bin\Debug" and run "Hello Wo
 Hello World Unity - 
 Navigate to "Hello-World-GitHub\Hello World Unity\Builds" and run "Hello World 1.exe".
 
+Hello World Java - 
+Navigate to "Hello-World-GitHub\Hello World Java...
+
+Hello World Eclipse - 
+Navigate to "Hello-World-GitHub\Hello World Eclipse...
+
 Hello World HTML5 - 
 Navigate to "Hello-World-GitHub\Hello World HTML5" and run "Hello World HTML5.html"
 
@@ -67,6 +81,12 @@ Navigate to "Hello-World-GitHub\Hello World C-sharp" and open "Hello World C-sha
 
 Hello World Unity - 
 Open Unity then open project and select the directory "Hello-World-GitHub\Hello World Unity".
+
+Hello World Java - 
+Navigate to "Hello-World-GitHub\Hello World Java...
+
+Hello World Eclipse - 
+Navigate to "Hello-World-GitHub\Hello World Eclipse...
 
 Hello World HTML5 - 
 Navigate to "Hello-World-GitHub\Hello World HTML5" and open "Hello World HTML5.html" in Notepad or Notepad++.
