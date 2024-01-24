@@ -1,0 +1,36 @@
+name: Linux CI/CD
+
+on: [push] # tells github to run this on any push to the repository
+
+jobs:
+  test: # names the job
+    runs-on: ubuntu-latest # sets the version of linux we want to use, should be what you have on your server
+
+    strategy:
+      fail-fast: false # tells github to not run further steps if this one fails
+
+    steps:
+      - uses: actions/checkout@v2 # fetches your commit to test it
+      - name: Upload to linux server test # names our step
+        env:
+          CI: true # shows terminal output!
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test # this job depends on "test" having finished
+    if: github.ref == 'refs/heads/master' # we tell Github to only execute this step if we're on our master branch (so we don't put unfinished branches in production)
+    steps:
+      - name: Upload to linux server
+        uses: appleboy/ssh-action@master # An action made to control Linux servers
+        with: # We set all our secrets here for the action, these won't be shown in the action logs
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            # Update repo, clean live directory and copy files over 
+            cd repos/Hello-World-GitHub
+            git pull
+            #cd /var/www/helloworld/obsidian # we move into our app's folder
+            rm -r /var/www/helloworld/obsidian/* # remove files
+            cp -r Hello\ World\ Obsidian/* /var/www/helloworld/obsidian/ # copy files and folders
