@@ -10,10 +10,11 @@ jobs:
       fail-fast: false # tells github to not run further steps if this one fails
 
     steps:
-      - uses: actions/checkout@v2 # fetches your commit to test it
       - name: Upload to linux server test # names our step
+        uses: actions/checkout@v2 # fetches your commit to test it
         env:
           CI: true # shows terminal output!
+#every step must define a `uses` or `run` key
 
   deploy:
     runs-on: ubuntu-latest
