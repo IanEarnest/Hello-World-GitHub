@@ -3,7 +3,7 @@ Hello-World-GitHub project
 2024 Update
 ------------
 CICD... GitHub Actions
-
+[![Linux CI/CD](https://github.com/IanEarnest/Hello-World-GitHub/actions/workflows/main.yml/badge.svg)](https://github.com/IanEarnest/Hello-World-GitHub/actions/workflows/main.yml)
 
 Introduction
 ------------
