@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello World HTMX</title>
+		<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+	</head>
+	<body>
+		<h1>Hello World</h1>
+<!-- have a button POST a click via AJAX 
+	<script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+When a user clicks on this button, issue an AJAX request to /clicked, and replace the entire button with the HTML response
+
+htmx.logAll();
+monitorEvents(htmx.find("#theElement"));
+https://jsfiddle.net/
+-->
+<button hx-on="click: alert('Clicked!')">
+	Click?
+</button>
+
+<button hx-post="https://localhost:5500/clicked" hx-swap="outerHTML"
+hx-request='{"noHeaders": true}'> 
+	Click Me
+</button>
+
+<button hx-post="index.html" hx-swap="outerHTML"> <!-- "./clicked" -->
+	Load home page here
+</button>
+<!-- 
+<div hx-post="clicked" hx-trigger="mouseenter once">
+	[Here Mouse, Mouse!]
+</div>
+<br>
+<br>
+
+-->
+
+<!-- https://htmx.org/examples/click-to-edit/ -->
+<!-- NOT WORKING!
+<div hx-target="this" hx-swap="outerHTML">
+	<div><label>First Name</label>: Joe</div>
+	<div><label>Last Name</label>: Blow</div>
+	<div><label>Email</label>: joe@blow.com</div>
+	<button hx-get="htmxexample1" class="btn btn-primary">
+	Click To Edit
+	</button>
+</div>
+// API - htmxexample1-1 and htmxexample1-2
+http://127.0.0.1:5500/htmxexample1-1
+
+<div hx-target="this" hx-swap="outerHTML">
+	<div><label>First Name</label>: Joe</div>
+	<div><label>Last Name</label>: Blow</div>
+	<div><label>Email</label>: joe@blow.com</div>
+	<button hx-get="htmxexample1-1" class="btn btn-primary">
+	Click To Edit
+	</button>
+</div>
+
+<form hx-put="htmxexample1-2" hx-target="this" hx-swap="outerHTML">
+	<div>
+		<label>First Name</label>
+		<input type="text" name="firstName" value="Joe">
+	</div>
+	<div class="form-group">
+		<label>Last Name</label>
+		<input type="text" name="lastName" value="Blow">
+	</div>
+	<div class="form-group">
+		<label>Email Address</label>
+		<input type="email" name="email" value="joe@blow.com">
+	</div>
+	<button class="btn">Submit</button>
+	<button class="btn" hx-get="htmxexample1-1">Cancel</button>
+</form>
+		
+-->
+	</body>
+</html>
+
