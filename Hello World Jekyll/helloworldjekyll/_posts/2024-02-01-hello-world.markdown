@@ -3,8 +3,14 @@ layout: post
 title:  "Hello World!"
 date:   2024-02-01 03:54:46 +0100
 categories: hello world
+toc: true
 ---
 Hello world!
+TOC example...
+<br/>
+{{ content | toc }}
+
+
 # Markdown Examples
 [[MarkdownExamples]]
 [[MarkdownExamples2]]
