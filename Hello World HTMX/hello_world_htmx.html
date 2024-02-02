@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello World HTMX</title>
+		<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+	</head>
+	<body>
+		<h1>Hello World HTMX</h1>
+
+		<!-- Alert using JS -->
+		<button hx-on="click: alert('Clicked!')">
+			show alert (on button JS)
+		</button>
+
+		<!-- Load from HTML page using AJAX -->
+		<button hx-get="./other.html" hx-swap="outerHTML"> <!-- "./clicked" -->
+			Load other page here
+		</button>
+
+		<!-- Load from HTML page using AJAX -->
+		<button hx-get="website.com" hx-swap="outerHTML"> <!-- "./clicked" -->
+			Load other page here
+		</button>
+	</body>
+</html>
+

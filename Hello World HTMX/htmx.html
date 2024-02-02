@@ -2,38 +2,58 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Hello World HTMX</title>
+		<title>Testing HTMX</title>
 		<script src="https://unpkg.com/htmx.org@1.9.10"></script>
+		<script>
+			// Detect htmx action
+			htmx.logAll();
+			//monitorEvents(htmx.find("#loadd"));
+			/*
+			document.body.addEventListener('htmx:beforeSwap', function(evt) {
+				alert('htmx swapped!'); // NOT WORKING
+			});
+			*/
+		</script>
 	</head>
 	<body>
-		<h1>Hello World</h1>
+		<h1>Testing HTMX</h1>
 <!-- have a button POST a click via AJAX 
-	<script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
 When a user clicks on this button, issue an AJAX request to /clicked, and replace the entire button with the HTML response
-
 htmx.logAll();
 monitorEvents(htmx.find("#theElement"));
 https://jsfiddle.net/
 -->
+
+<!-- Alert -->
 <button hx-on="click: alert('Clicked!')">
-	Click?
+	show alert (on button JS)
 </button>
 
+<!-- .NET API Example -->
 <button hx-post="https://localhost:5500/clicked" hx-swap="outerHTML"
-hx-request='{"noHeaders": true}'> 
-	Click Me
+hx-request='{"noHeaders": true}'>
+POST (.NET)
 </button>
 
-<button hx-post="index.html" hx-swap="outerHTML"> <!-- "./clicked" -->
-	Load home page here
+<!-- Load from HTML page -->
+<button id="loadd" hx-get="./other.html" hx-swap="outerHTML"> <!-- "./clicked" -->
+	Load other page here
 </button>
+
+<!-- GO Example -->
+<button hx-get="http://localhost:8080/" hx-swap="beforeend"
+hx-request='{"noHeaders": true}'> 
+	GET (from Go server)
+</button>
+
+<!-- Mouse enter -->
 <!-- 
 <div hx-post="clicked" hx-trigger="mouseenter once">
 	[Here Mouse, Mouse!]
 </div>
 <br>
 <br>
-
 -->
 
 <!-- https://htmx.org/examples/click-to-edit/ -->
