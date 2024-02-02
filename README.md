@@ -5,6 +5,12 @@ Hello-World-GitHub project
 CICD... GitHub Actions
 [![Linux CI/CD](https://github.com/IanEarnest/Hello-World-GitHub/actions/workflows/main.yml/badge.svg)](https://github.com/IanEarnest/Hello-World-GitHub/actions/workflows/main.yml)
 
+
+Purpose
+-------
+Print on screen "Hello World".
+
+
 Introduction
 ------------
 This Hello World project is setup to show multiple examples of Hello World in programming.
@@ -33,10 +39,15 @@ Hello World HTML5 -
 Created in Notepad++, hello world is displayed in the top left of the browser for both the HTML5 and HTML5 Canvas examples.
 Main code located "Hello-World-GitHub/Hello World HTML5/Hello World HTML5.html"
 
+Hello World HTMX - 
+Created in Visual Studio Code, hello world is displayed in the browser.
+Main code located "Hello-World-GitHub/Hello World HTMX/hello_world_htmx.html"
 
-Purpose
--------
-Print on screen "Hello World".
+Hello World Go - 
+Created in Visual Studio Code, hello world is displayed in the console.
+Main code located "Hello-World-GitHub/Hello World Go/helloWorldGo.go"
+runServer.Go contains code to run an http server - useful for HTMX
+
 
 
 
@@ -53,6 +64,8 @@ To-do list
 - &#9744; Java
 - &#9744; Eclipse
 - &#x2611; HTML5
+- &#x2611; HTMX
+- &#x2611; Go
 
 
 Map
@@ -83,6 +96,12 @@ Navigate to "Hello-World-GitHub\Hello World Eclipse...
 Hello World HTML5 - 
 Navigate to "Hello-World-GitHub\Hello World HTML5" and run "Hello World HTML5.html"
 
+Hello World HTMX - 
+Navigate to "Hello-World-GitHub\Hello World HTMX" and run "Hello World HTMX.html"
+
+Hello World Go - 
+Navigate to "Hello-World-GitHub\Hello World Go" and run "helloWorldGo.go"
+
 How to edit
 -----------
 Hello World Android - 
@@ -102,3 +121,9 @@ Navigate to "Hello-World-GitHub\Hello World Eclipse...
 
 Hello World HTML5 - 
 Navigate to "Hello-World-GitHub\Hello World HTML5" and open "Hello World HTML5.html" in Notepad or Notepad++.
+
+Hello World HTMX - 
+Navigate to "Hello-World-GitHub\Hello World HTMX" and open "Hello World HTMX.html" in any text editor.
+
+Hello World Go - 
+Navigate to "Hello-World-GitHub\Hello World Go" and open "helloWorldGo.go" in any text editor.
