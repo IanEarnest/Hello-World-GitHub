@@ -15,6 +15,16 @@ TOC example...
 [[MarkdownExamples]]
 [[MarkdownExamples2]]
 
+<!---
+your comment goes here
+and here
+-->
+
+{% comment %} 
+    These commments will not include inside the source.
+{% endcomment %}
+
+
 ToC
 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Tips
