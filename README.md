@@ -19,21 +19,14 @@ Hello World Android -
 Created in Eclipse, hello world is displayed in ...
 Main code located "Hello-World-GitHub/Hello World Android ...
 
-Hello World Unity - 
-Created in Unity using MonoDevelop and C#, hello world is displayed in the on screen GUI in the top left.
-Main code located "Hello-World-GitHub/Hello World Unity/Assets/HelloWorldScript.cs"
-
 Hello World C-sharp - 
 Created in Visual Studio Express 2013 for Windows Desktop, hello world is displayed in a command prompt.
 Main code located "Hello-World-GitHub/Hello World C-sharp/Program.cs"
 
-Hello World Java - 
-Created in ..., hello world is displayed in ...
-Main code located "Hello-World-GitHub/Hello World Java ...
-
-Hello World Eclipse - 
-Created in Eclipse, hello world is displayed in ...
-Main code located "Hello-World-GitHub/Hello World Eclipse ...
+Hello World Go - 
+Created in Visual Studio Code, hello world is displayed in the console.
+Main code located "Hello-World-GitHub/Hello World Go/helloWorldGo.go"
+runServer.Go contains code to run an http server - useful for HTMX
 
 Hello World HTML5 - 
 Created in Notepad++, hello world is displayed in the top left of the browser for both the HTML5 and HTML5 Canvas examples.
@@ -43,10 +36,38 @@ Hello World HTMX -
 Created in Visual Studio Code, hello world is displayed in the browser.
 Main code located "Hello-World-GitHub/Hello World HTMX/hello_world_htmx.html"
 
-Hello World Go - 
+Hello World Jekyll - 
+Created in Visual Studio Code, hello world is displayed on the browser.
+Main code located "Hello-World-GitHub/Hello World Jekyll/helloworldjekyll/index.markdown"
+
+Hello World JavaScript - 
+Created in Visual Studio Code, hello world is displayed on the browser.
+Main code located "Hello-World-GitHub/Hello World JS/index.html"
+
+Hello World Obsidian - 
+Created in Visual Studio Code, hello world is displayed on the browser.
+Main code located "Hello-World-GitHub/Hello World Obsidian/index.html"
+
+Hello World PowerShell - 
 Created in Visual Studio Code, hello world is displayed in the console.
-Main code located "Hello-World-GitHub/Hello World Go/helloWorldGo.go"
-runServer.Go contains code to run an http server - useful for HTMX
+Main code located "Hello-World-GitHub/Hello World PowerShell/main.ps1"
+
+Hello World Rust - 
+Created in Visual Studio Code, hello world is displayed in the console.
+Main code located "Hello-World-GitHub/Hello World Rust/helloworld.rs."
+
+Hello World Unity - 
+Created in Unity using MonoDevelop and C#, hello world is displayed in the on screen GUI in the top left.
+Main code located "Hello-World-GitHub/Hello World Unity/Assets/HelloWorldScript.cs"
+
+TODO Hello World Java - 
+Created in ..., hello world is displayed in ...
+Main code located "Hello-World-GitHub/Hello World Java ...
+
+TODO Hello World Eclipse - 
+Created in Eclipse, hello world is displayed in ...
+Main code located "Hello-World-GitHub/Hello World Eclipse ...
+
 
 
 
@@ -59,13 +80,20 @@ To-do list
 &#x2611; Publish exe
 
 &#9744; More "Hello World" examples
-- &#x2611; C#
-- &#x2611; Unity
-- &#9744; Java
-- &#9744; Eclipse
-- &#x2611; HTML5
-- &#x2611; HTMX
-- &#x2611; Go
+&#x2611; Android
+&#x2611; C#
+&#x2611; Go
+&#x2611; HTML5
+&#x2611; HTMX
+&#x2611; Jekyll
+&#x2611; JavaScript
+&#x2611; Obsidian
+&#x2611; PowerShell
+&#x2611; Rust
+&#x2611; Unity
+&#9744; Java
+&#9744; Eclipse
+
 
 
 Map
@@ -84,14 +112,8 @@ Navigate to "Hello-World-GitHub\Hello World Android...
 Hello World C# - 
 Navigate to "Hello-World-GitHub\Hello World C-sharp\bin\Debug" and run "Hello World C-sharp.exe".
 
-Hello World Unity - 
-Navigate to "Hello-World-GitHub\Hello World Unity\Builds" and run "Hello World 1.exe".
-
-Hello World Java - 
-Navigate to "Hello-World-GitHub\Hello World Java...
-
-Hello World Eclipse - 
-Navigate to "Hello-World-GitHub\Hello World Eclipse...
+Hello World Go - 
+Navigate to "Hello-World-GitHub\Hello World Go" and run "helloWorldGo.go"
 
 Hello World HTML5 - 
 Navigate to "Hello-World-GitHub\Hello World HTML5" and run "Hello World HTML5.html"
@@ -99,8 +121,31 @@ Navigate to "Hello-World-GitHub\Hello World HTML5" and run "Hello World HTML5.ht
 Hello World HTMX - 
 Navigate to "Hello-World-GitHub\Hello World HTMX" and run "Hello World HTMX.html"
 
-Hello World Go - 
-Navigate to "Hello-World-GitHub\Hello World Go" and run "helloWorldGo.go"
+Hello World Jekyll - 
+Navigate to "Hello-World-GitHub\Hello World Jekyll" and run "index.markdown"
+
+Hello World JavaScript - 
+Navigate to "Hello-World-GitHub\Hello World JS" and run "index.html"
+
+Hello World Obsidian - 
+Navigate to "Hello-World-GitHub\Hello World Obsidian" and run "index.html"
+
+Hello World PowerShell - 
+Navigate to "Hello-World-GitHub\Hello World PowerShell" and run "main.ps1"
+
+Hello World Rust - 
+Navigate to "Hello-World-GitHub\Hello World Rust" and run "helloworld.rs"
+
+Hello World Unity - 
+Navigate to "Hello-World-GitHub\Hello World Unity\Builds" and run "Hello World 1.exe".
+
+TODO Hello World Java - 
+Navigate to "Hello-World-GitHub\Hello World Java...
+
+TODO Hello World Eclipse - 
+Navigate to "Hello-World-GitHub\Hello World Eclipse...
+
+
 
 How to edit
 -----------
@@ -110,6 +155,30 @@ Navigate to "Hello-World-GitHub\Hello World Android...
 Hello World C# - 
 Navigate to "Hello-World-GitHub\Hello World C-sharp" and open "Hello World C-sharp.sln" in Visual Studio Express 2013 for Windows Desktop, then run "program.cs".
 
+Hello World Go - 
+Navigate to "Hello-World-GitHub\Hello World Go" and open "helloWorldGo.go" in any text editor.
+
+Hello World HTML5 - 
+Navigate to "Hello-World-GitHub\Hello World HTML5" and open "Hello World HTML5.html" in any text editor.
+
+Hello World HTMX - 
+Navigate to "Hello-World-GitHub\Hello World HTMX" and open "Hello World HTMX.html" in any text editor.
+
+Hello World Jekyll - 
+Navigate to "Hello-World-GitHub\Hello World Jekyll" and open "index.markdown" in any text editor.
+
+Hello World JavaScript - 
+Navigate to "Hello-World-GitHub\Hello World JS" and open "index.html" in any text editor.
+
+Hello World Obsidian - 
+Navigate to "Hello-World-GitHub\Hello World Obsidian" and open "index.html" in any text editor.
+
+Hello World PowerShell - 
+Navigate to "Hello-World-GitHub\Hello World JS" and open "main.ps1" in Visual Studio Code.
+
+Hello World Rust - 
+Navigate to "Hello-World-GitHub\Hello World Rust" and open "helloworld.rs" Visual Studio Code.
+
 Hello World Unity - 
 Open Unity then open project and select the directory "Hello-World-GitHub\Hello World Unity".
 
@@ -118,12 +187,3 @@ Navigate to "Hello-World-GitHub\Hello World Java...
 
 Hello World Eclipse - 
 Navigate to "Hello-World-GitHub\Hello World Eclipse...
-
-Hello World HTML5 - 
-Navigate to "Hello-World-GitHub\Hello World HTML5" and open "Hello World HTML5.html" in Notepad or Notepad++.
-
-Hello World HTMX - 
-Navigate to "Hello-World-GitHub\Hello World HTMX" and open "Hello World HTMX.html" in any text editor.
-
-Hello World Go - 
-Navigate to "Hello-World-GitHub\Hello World Go" and open "helloWorldGo.go" in any text editor.
