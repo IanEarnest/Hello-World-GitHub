@@ -1,5 +1,6 @@
 mod mymod1;
-mod helloferris;
+//mod helloferris;
+mod httpserver;
 //use sub::sub;
 /*
 settings.json added:
@@ -9,9 +10,15 @@ settings.json added:
 */ 
 
 fn main() {
+    println!("Run Server!");
+    httpserver::run_server(); // Run server - cargo run
+    println!("Finished!");
+
+    return;
+
     println!("Hello, world RUST!");
 
-    helloferris::sayhello(); // Hello fellow Rustaceans
+    //helloferris::sayhello(); // Hello fellow Rustaceans
     
     // Reverse &str...
     let mut s2 = reverse("hi");
