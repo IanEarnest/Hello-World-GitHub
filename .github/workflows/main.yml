@@ -1,3 +1,4 @@
+# Linux Server Prod - var/www/helloworld/obsidian
 name: Linux CI/CD
 
 on: [push] # tells github to run this on any push to the repository
@@ -32,6 +33,7 @@ jobs:
             # Update repo, clean live directory and copy files over 
             cd repos/Hello-World-GitHub
             git pull
-            #cd /var/www/helloworld/obsidian # we move into our app's folder
+            cd /var/www/helloworld/obsidian # we move into our app's folder
             rm -r /var/www/helloworld/obsidian/* # remove files
+            mkdir -p /var/www/helloworld/obsidian/ # && cp -r Hello\ World\ Obsidian/* /var/www/helloworld/obsidian/ # create directory and copy files and folders
             cp -r Hello\ World\ Obsidian/* /var/www/helloworld/obsidian/ # copy files and folders
