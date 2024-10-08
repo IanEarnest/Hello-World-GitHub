@@ -1,4 +1,6 @@
 # Linux Server Prod - var/www/helloworld/obsidian
+# issue - folder not found
+# issue - invalid permissions 
 name: Linux CI/CD
 
 on: [push] # tells github to run this on any push to the repository
