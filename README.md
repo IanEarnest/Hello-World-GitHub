@@ -79,20 +79,20 @@ To-do list
 
 &#x2611; Publish exe
 
-&#9744; More "Hello World" examples
-&#x2611; Android
-&#x2611; C#
-&#x2611; Go
-&#x2611; HTML5
-&#x2611; HTMX
-&#x2611; Jekyll
-&#x2611; JavaScript
-&#x2611; Obsidian
-&#x2611; PowerShell
-&#x2611; Rust
-&#x2611; Unity
-&#9744; Java
-&#9744; Eclipse
+<br />&#9744; More "Hello World" examples
+<br />&#x2611; Android
+<br />&#x2611; C#
+<br />&#x2611; Go
+<br />&#x2611; HTML5
+<br />&#x2611; HTMX
+<br />&#x2611; Jekyll
+<br />&#x2611; JavaScript
+<br />&#x2611; Obsidian
+<br />&#x2611; PowerShell
+<br />&#x2611; Rust
+<br />&#x2611; Unity
+<br />&#9744; Java
+<br />&#9744; Eclipse
 
 
 
