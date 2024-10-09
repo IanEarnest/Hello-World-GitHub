@@ -31,6 +31,8 @@ runServer.Go contains code to run an http server - useful for HTMX
 Hello World HTML5 - 
 Created in Notepad++, hello world is displayed in the top left of the browser for both the HTML5 and HTML5 Canvas examples.
 Main code located "Hello-World-GitHub/Hello World HTML5/Hello World HTML5.html"
+[HTML5 README](Hello%20World%20HTML5/README.md)
+
 
 Hello World HTMX - 
 Created in Visual Studio Code, hello world is displayed in the browser.
