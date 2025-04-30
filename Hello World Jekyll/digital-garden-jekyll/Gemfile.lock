@@ -90,7 +90,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3)
   jekyll-last-modified-at!
-  nokogiri (>= 1.18.4)
+  nokogiri (>= 1.18.8)
   webrick (= 1.8.2)
 
 BUNDLED WITH
